@@ -1,3 +1,4 @@
 <h1>"Modern" portfolio page</h1>
 
-<p><a href="https://chippd.github.io/modern/">View demo here</a></p>
+<p><a href="timmoore.io">View demo here</a></p>
+<p>This is a quick page I put together to use as a portfolio, of sorts. I was also interested to learn how github pages were used, which was a surprisingly painless process.</p>
