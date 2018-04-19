@@ -16,6 +16,9 @@ body {
 	background-color: white
 }
 
+.container-fluid {
+	padding: 0;
+}
 
 section {
 	width:100%;
@@ -103,12 +106,10 @@ hr {
 	margin-right:5px;
 }
 
-
 .project-img-col img {
 	max-width: 250px;
   margin: auto;
 }
-
 
 .list-container {
   max-width: 600px;
@@ -145,7 +146,7 @@ hr {
     background-image: url('../img/cong.jpg');
 
     /* Set a specific height */
-    padding: 0vh 10vw 10vw 10vw;
+    padding: 0vh 10vw 0vw 10vw;
 		margin-top:100px;
 
     /* Create the parallax scrolling effect */
@@ -175,6 +176,23 @@ hr {
   padding: 50px 0;
   max-width:400px;
   margin:auto;
+}
+
+#tech {
+	background-color: #E9E8E8;
+	padding: 20px 0;
+}
+
+#tech h1 p {
+	color: #2C303B;
+}
+
+#tech hr {
+	border-color: #2C303B;
+}
+
+#about-me {
+	padding: 0 20px;
 }
 
 .btn.outline {
