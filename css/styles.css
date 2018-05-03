@@ -126,6 +126,12 @@ hr {
   margin: auto;
 }
 
+#tech-grid {
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	justify-content: center;
+}
+
 .techlogo {
 	width:140px;
 }
@@ -149,7 +155,6 @@ hr {
 	margin-left:15px;
   display: inline-block;;
 }
-
 
 .parallax-footer {
     /* The image used */
@@ -242,5 +247,15 @@ hr {
 		margin-left: auto;
 		margin-right: auto;
 		padding: 0 10px
+	}
+}
+
+@media screen and (max-width: 400px) {
+  #tech-grid {
+		grid-template-columns: repeat(2, auto);
+  }
+
+	.tech-item i {
+		font-size:7em;
 	}
 }
